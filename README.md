@@ -47,3 +47,28 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 |---|---|---|
 |Sin aumento| [main_without_Data_Augmentation.pdf](./main_without_Data_Augmentation.pdf) |[main_without_Data_Augmentation.ipynb](./main_without_Data_Augmentation.ipynb) |
 |Con aumento| | |
+
+
+## Bibliografía
+
+* Brownlee, J. (2019, enero 29). How to Choose Loss Functions When Training Deep Learning Neural Networks. MachineLearningMastery.Com. https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/
+
+* Buragohain, A. (s. f.). Albumentations Documentation—Using Albumentations with Tensorflow. Recuperado 29 de junio de 2023, de https://albumentations.ai/docs/examples/tensorflow-example/
+
+* Cano, M. (2023). MeIA-segmentation [Jupyter Notebook]. https://github.com/macanoso/MeIA-segmentation (Obra original publicada en 2023)
+
+* Nayak, R. (2022, abril 26). Focal Loss: A better alternative for Cross-Entropy. Medium. https://towardsdatascience.com/focal-loss-a-better-alternative-for-cross-entropy-1d073d92d075
+
+
+* Pérez Gutiérrez, F. (2020). Detección de vehículos en circulación mediante visión artificial y redes neuronales convolucionales [MSc]. Universidad Complutense de Madrid.
+
+* Team, K. (s. f.). Keras documentation: Base Callback class. Recuperado 29 de junio de 2023, de https://keras.io/api/callbacks/base_callback/
+
+* Tf.keras.losses.BinaryFocalCrossentropy | TensorFlow v2.12.0. (s. f.). TensorFlow. Recuperado 29 de junio de 2023, de https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryFocalCrossentropy
+
+* Yathish, V. (2022, agosto 4). Loss Functions and Their Use In Neural Networks. Medium. https://towardsdatascience.com/loss-functions-and-their-use-in-neural-networks-a470e703f1e9
+
+
+## Agradecimientos
+
+A todo el equipo de [MeIA](https://www.taller-tic.redmacro.unam.mx/MeIA/).
