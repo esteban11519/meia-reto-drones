@@ -39,7 +39,9 @@ Se aplicaron las transformaciones geométricas previo a la implementación de la
 
 ### Resultados
 
-En la Tabla I, se especifican las direcciones de los resultados con y sin aumentar el dataset.
+En la Tabla I, se especifican las direcciones de los resultados con y sin aumentar el dataset. Se dejaran estos dos archivos para tener un punto de comparación. Además, cada Notebook tiene una variación en el parámetro **threshold** porque es sensible al visualizar los resultados.
+
+*Tabla I. Resultados según el tamaño del dataset.*
 
 |Tipo|pdf|Notebook|
 |---|---|---|
