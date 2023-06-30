@@ -46,7 +46,7 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 |Tipo|pdf|Notebook|
 |---|---|---|
 |Sin aumento| [main_without_Data_Augmentation.pdf](./main_without_Data_Augmentation.pdf) |[main_without_Data_Augmentation.ipynb](./main_without_Data_Augmentation.ipynb) |
-|Con aumento| [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.pdf) | [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.ipynb) |
+|Con aumento| [main_with_Data_Augmentation.pdf](./main_with_Data_Augmentation.pdf) | [main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.ipynb) |
 
 ### Conclusiones
 
@@ -81,7 +81,8 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 
 * Phind: AI search engine. (s. f.). Recuperado 29 de junio de 2023, de https://www.phind.com/
 
-* 
+* Project Jupyter. (s. f.). Recuperado 29 de junio de 2023, de https://jupyter.org
+
 ## Agradecimientos
 
 A todo el equipo de [MeIA](https://www.taller-tic.redmacro.unam.mx/MeIA/).
