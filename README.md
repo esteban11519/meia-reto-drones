@@ -48,6 +48,15 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 |Sin aumento| [main_without_Data_Augmentation.pdf](./main_without_Data_Augmentation.pdf) |[main_without_Data_Augmentation.ipynb](./main_without_Data_Augmentation.ipynb) |
 |Con aumento| [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.pdf) | [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.ipynb) |
 
+### Conclusiones
+
+* Al entrenar una red neuronal muchos hiperparametros entran en juego, de los cuales se pueden hacer diferentes combinaciones como lo pueden ser funciones de activación, funciones de pérdida, optimizadores entre otros; además en el preprocesamiento de datos existen diferentes técnicas de visión por computadora que pudiera dar mejores resultados; probar todo es una tarea complicada pero puede ser factible en un entorno diferente donde se cuente con más recursos y tiempo.
+  
+* Una de las limitaciones principales de este proyecto es el hardware necesario para resolver este tipo de problemas, al ser un trabajo de segmentación, el procesamiento de imágenes es muy demandante; las herramientas que se utilizaron fueron virtuales como lo son “Google Colab” y “Kaggle”; esto fue un problema ya que al utilizar cuentas gratuitas se tenían recursos limitados. El problema principal fue en la etapa de entrenamiento ya que se limitó a un red estándar la cual no se pudo extender por dichas limitaciones.
+  
+* Las transformaciones empleadas para el aumento de datos fueron geométricas. Hizo falta explorar más tipos de transformaciones que optimizaran la calidad de los datos. No se incluyeron transformaciones espectrales, por lo que explorarlas en el aumento de datos podría dar resultados significativos. Las transformaciones se implementaron antes de procesar las imágenes, por lo que imágenes transformadas pudieron entrar como parte del conjunto de test. Esto pudo influir en las predicciones del modelo. Otra limitante es el número de transformaciones, pues multiplica la cantidad de datos a procesar, por lo que los entrenamientos toman más tiempo y resulta complicado evaluar diferentes resultados con diferentes transformaciones en un tiempo limitado.
+
+
 
 ## Bibliografía
 
