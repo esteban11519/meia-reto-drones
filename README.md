@@ -46,12 +46,12 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 |Tipo|pdf|Notebook|
 |---|---|---|
 |Sin aumento| [main_without_Data_Augmentation.pdf](./main_without_Data_Augmentation.pdf) |[main_without_Data_Augmentation.ipynb](./main_without_Data_Augmentation.ipynb) |
-|Con aumento| | |
+|Con aumento| [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.pdf) | [./main_with_Data_Augmentation.ipynb](./main_with_Data_Augmentation.ipynb) |
 
 
 ## Bibliografía
 
-* Brownlee, J. (2019, enero 29). How to Choose Loss Functions When Training Deep Learning Neural Networks. MachineLearningMastery.Com. https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/
+* Brownlee, J. (2019, enero 30). How to Choose Loss Functions When Training Deep Learning Neural Networks. MachineLearningMastery.Com. https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/
 
 * Buragohain, A. (s. f.). Albumentations Documentation—Using Albumentations with Tensorflow. Recuperado 29 de junio de 2023, de https://albumentations.ai/docs/examples/tensorflow-example/
 
@@ -68,7 +68,11 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 
 * Yathish, V. (2022, agosto 4). Loss Functions and Their Use In Neural Networks. Medium. https://towardsdatascience.com/loss-functions-and-their-use-in-neural-networks-a470e703f1e9
 
+## Herramientas
 
+* Phind: AI search engine. (s. f.). Recuperado 29 de junio de 2023, de https://www.phind.com/
+
+* 
 ## Agradecimientos
 
 A todo el equipo de [MeIA](https://www.taller-tic.redmacro.unam.mx/MeIA/).
