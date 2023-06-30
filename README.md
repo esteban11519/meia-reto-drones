@@ -1,5 +1,6 @@
   # MeIA reto: Segmentación semántica de vehículos en imágenes aéreas de drones usando Aprendizaje profundo
 
+
 ## Unet
 A continuación, se muestra la propuesta de dos modelos de Redes Neuronales basadas en Unet, la primera U-Net para la segmentación de imágenes con la función de pérdida BinaryFocalCrossentropy. Contiene en su capa más grande en 1024 neuronas. Se utilizó una función de activación LeakyRelu para agregar no linealidad en el sistema y así fuese aún más robusto.
 
@@ -37,6 +38,10 @@ Se realizaron pruebas con la funcion de activación de leaky relu, la cual al no
 Otra técnica para enfrentar el desbalanceo de datos es el aumento de datos. Consiste en aplicar transformaciones a las imágenes (y máscaras, si se requiere), para obtener un conjunto más amplio de datos. Para ello, se optó por realizar transformaciones geométricas a las imágenes, las cuales consisten en rotaciones y reflexiones. En total se logró ampliar cuatro veces el conjunto de datos.
 Se aplicaron las transformaciones geométricas previo a la implementación de la red, mediante el uso de la librería “Albumentations”. Esto, si bien, requiere de más recursos de almacenamiento, nos ayuda a ver las transformaciones de las imágenes con sus máscaras correspondientes.
 
+### callbacks
+
+Mediante los callbacks se implementó la verificación de mejora en las épocas y el guardado de la que presentaba el mejor desempeño. Esto permite guardar el modelo ante una falla en el entrenamiento o usarlo para hacer predicciones. También, se guardó la mejor época según el 'accuracy' de los datos de validación.
+
 ### Resultados
 
 En la Tabla I, se especifican las direcciones de los resultados con y sin aumentar el dataset. Se dejaran estos dos archivos para tener un punto de comparación. Además, cada Notebook tiene una variación en el parámetro **threshold** porque es sensible al visualizar los resultados.
@@ -56,7 +61,7 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
   
 * Las transformaciones empleadas para el aumento de datos fueron geométricas. Hizo falta explorar más tipos de transformaciones que optimizaran la calidad de los datos. No se incluyeron transformaciones espectrales, por lo que explorarlas en el aumento de datos podría dar resultados significativos. Las transformaciones se implementaron antes de procesar las imágenes, por lo que imágenes transformadas pudieron entrar como parte del conjunto de test. Esto pudo influir en las predicciones del modelo. Otra limitante es el número de transformaciones, pues multiplica la cantidad de datos a procesar, por lo que los entrenamientos toman más tiempo y resulta complicado evaluar diferentes resultados con diferentes transformaciones en un tiempo limitado.
 
-
+* En la visualización de las predicciones se estuvieron probando diferentes valores de threshold. En el caso del modelo sin datos aumentados, el threshold con valor de 0.2 mostró una mejor definición en la detección de vehículos, disminuyendo el ruido de los alrededores. En el modelo con datos aumentados, un threshold de 0.1 ayudó a definir mejor los vehículos detectados.
 
 ## Bibliografía
 
@@ -82,6 +87,17 @@ En la Tabla I, se especifican las direcciones de los resultados con y sin aument
 * Phind: AI search engine. (s. f.). Recuperado 29 de junio de 2023, de https://www.phind.com/
 
 * Project Jupyter. (s. f.). Recuperado 29 de junio de 2023, de https://jupyter.org
+
+## Equipo de trabajo
+
+* Juan Sebastian Zapata Echeverri
+* Johnny Rubio Pecasso
+* Cristhian Daniel    Guevara Cano
+* Valentina Narváez Gaitán
+* Claudia Vanessa Arevalo Rodriguez
+* Santiago Moya Duran
+* Esteban Ladino Fajardo
+
 
 ## Agradecimientos
 
